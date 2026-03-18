@@ -1,10 +1,10 @@
 
 --Project Overview--
 
---This project analyzes an HR dataset sourced from Kaggle to evaluate employee performance and promotion patterns.
---The dataset was structured into three relational tables to enable the application of SQL concepts such as Joins and Unions,
---with Employee_ID serving as the common key across all tables.
---The analysis focuses on identifying key factors influencing performance outcomes and promotion eligibility.
+This project analyzes an HR dataset sourced from Kaggle to evaluate employee performance and promotion patterns.
+The dataset was structured into three relational tables to enable the application of SQL concepts such as Joins and Unions,
+with Employee_ID serving as the common key across all tables.
+The analysis focuses on identifying key factors influencing performance outcomes and promotion eligibility.
 
 
 I. --Data Exploration Queries--
