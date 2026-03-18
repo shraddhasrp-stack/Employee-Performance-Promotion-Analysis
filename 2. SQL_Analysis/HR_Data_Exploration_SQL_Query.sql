@@ -1,0 +1,50 @@
+
+--Project Overview--
+
+This project analyzes an HR dataset sourced from Kaggle to evaluate employee performance and promotion patterns.
+The dataset was structured into three relational tables to enable the application of SQL concepts such as Joins and Unions,
+with Employee_ID serving as the common key across all tables.
+The analysis focuses on identifying key factors influencing performance outcomes and promotion eligibility.
+
+
+I. --Data Exploration Queries--
+
+i) --Preview Data--
+SELECT *
+FROM dbo.Employee_Demographics
+
+ii) --Distinct Department Name--
+SELECT DISTINCT(Department) AS 'Department_Name'
+FROM dbo.Employee_Demographics
+
+iii) --Distinct Job Title--
+SELECT DISTINCT(Job_Role) AS 'Job_Title'
+FROM dbo.Employee_Demographics
+
+iv) --Preview Data--
+SELECT *
+FROM dbo.Performance_and_Ratings
+
+v) --Range of Performance Score--
+SELECT MIN(Performance_Score) AS 'Min_Performance_Score',
+	   MAX(Performance_Score) AS 'Max_Performance_Score',
+	   MIN(KPI_Score) AS 'Min_KPI_Score',
+	   MAX(KPI_Score) AS 'Max_KPI_Score',
+	   MIN(Peer_Rating) AS 'Min_Peer_Rating',
+	   MAX(Peer_Rating) AS 'Max_Peer_Rating',
+	   MIN(Manager_Feedback) AS 'Min_Manager_Feedback',
+	   MAX(Manager_Feedback) AS 'Max_Manager_Feedback'
+FROM dbo.Performance_and_Ratings
+
+vi) --Preview Data--
+SELECT *
+FROM dbo.Work_Log
+
+vii) --Range of Work & training hours--
+SELECT MIN(Work_Hours_Logged) AS 'Min_Working_Hours',
+	   MAX(Work_Hours_Logged) AS 'Max_Working_Hours',
+	   MIN(Training_Hours) AS 'Min_Training_Hours',
+	   MAX(Training_Hours) AS 'Max_Training_Hours',
+	   MIN(Task_Completion) AS 'Min_Task_Completion_Rate',
+	   MAX(Task_Completion) AS 'Max_Task_Completion_Rate'
+FROM dbo.Work_Log
