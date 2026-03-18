@@ -6,6 +6,7 @@ with Employee_ID serving as the common key across all tables.
 The analysis focuses on identifying key factors influencing performance outcomes and promotion eligibility.
 
 
+
 I. --Data Exploration Queries--
 
 i) --Preview Data--
