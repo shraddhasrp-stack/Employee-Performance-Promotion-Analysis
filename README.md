@@ -109,6 +109,7 @@ For analysis, the dataset was structured into three tables:
 ### 4. Avg Training Hours & Avg Work Hours by Performance Level
 ### 5. Top 5 Job Roles by Avg KPI Score & Avg Performance Score
 
+
 <img width="1365" height="740" alt="image" src="https://github.com/user-attachments/assets/67615f58-bdfe-4197-9732-fa8fcc6f36b9" />
 
 ---
